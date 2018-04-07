@@ -1,4 +1,4 @@
-package co.edu.uniandes.agendatelefonica.medios;
+package co.edu.uniandes.agendatelefonica.entidades.medios;
 
 public class CorreoElectronico extends MedioComunicacion {
 
