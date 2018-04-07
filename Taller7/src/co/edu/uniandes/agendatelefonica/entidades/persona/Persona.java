@@ -4,11 +4,13 @@ import java.util.List;
 
 import co.edu.uniandes.agendatelefonica.comun.Constantes;
 import co.edu.uniandes.agendatelefonica.entidades.medios.MedioComunicacion;
+import uk.co.jemos.podam.common.PodamCollection;
 
 public class Persona {
 
 	private String nombre;
 
+	@PodamCollection(nbrElements = 2)
 	private List<MedioComunicacion> mediosComunicacion;
 
 	public Persona() {

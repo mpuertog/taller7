@@ -28,7 +28,7 @@ public class AgendaTelefonicaCliente {
 			System.out.println("Nombre: " + persona.getNombre());
 			System.out.println("Telefonos:");
 			for (MedioComunicacion medio : persona.getMediosComunicacion()) {
-				System.out.println(medio.nombreMedio + ": " + medio.informacionMedio);
+				System.out.println(medio.getNombreMedio() + ": " + medio.getInformacionMedio());
 			}
 		}
 

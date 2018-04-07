@@ -6,6 +6,7 @@ public class CorreoElectronico extends MedioComunicacion {
 	private String tipoCorreo;
 
 	public CorreoElectronico(String nombreMedio, String informacionMedio) {
+		super(nombreMedio, informacionMedio);
 		this.nombreMedio = nombreMedio;
 		this.informacionMedio = informacionMedio;
 	}

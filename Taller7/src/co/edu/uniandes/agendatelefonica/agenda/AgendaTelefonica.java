@@ -28,7 +28,7 @@ public class AgendaTelefonica {
 		// Buscar por numero
 		for (Persona persona : listaPersonas) {
 			for (MedioComunicacion medio : persona.getMediosComunicacion()) {
-				if (medio.informacionMedio.contains(criterioBusqueda))
+				if (medio.getInformacionMedio().contains(criterioBusqueda))
 					resultados.add(persona);
 			}
 		}

@@ -8,6 +8,7 @@ public class TelefonoFijo extends MedioComunicacion {
 	private String extension;
 
 	public TelefonoFijo(String nombreMedio, String informacionMedio) {
+		super(nombreMedio, informacionMedio);
 		this.nombreMedio = nombreMedio;
 		this.informacionMedio = informacionMedio;
 	}

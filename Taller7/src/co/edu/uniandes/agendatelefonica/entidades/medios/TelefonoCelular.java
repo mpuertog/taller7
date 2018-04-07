@@ -5,6 +5,7 @@ public class TelefonoCelular extends MedioComunicacion {
 	private String informacionLineaSecundaria;
 
 	public TelefonoCelular(String nombreMedio, String informacionMedio) {
+		super(nombreMedio, informacionMedio);
 		this.nombreMedio = nombreMedio;
 		this.informacionMedio = informacionMedio;
 	}

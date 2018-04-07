@@ -9,4 +9,6 @@ public class Constantes {
 	public static final String ERROR_LEER_MEDIOS_MSG = "Error al recuperar información adicional del contacto: %s";
 	public static final String SIN_MEDIOS_MSG = "El contacto no tiene ningún número guardado";
 
+	public static final String DOS_PUNTOS = ": ";
+
 }
